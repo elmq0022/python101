@@ -24,8 +24,8 @@ class TeamBuilder(object):
     def create_teams(self):
         '''
          Sort people by lines of code and then pop 2 people from each end to form a team.
-         If there are less than for people they will be a one team. This will make try
-         to make groups of 4 by poping two people from the left and the right. If there
+         If there are less than 4 people they will be one team. This will try
+         to make groups of 4 by popping two people from the left and the right. If there
          are less than 5 people in the deque, the people will make a group.
          This should avoid having a group of one if there are more than 4 people.
         '''
